@@ -1,0 +1,47 @@
+#c{
+  margin-top: 20px;
+  background-color: #403e3b;
+}
+#b{
+  background-color: #403e3b;
+}
+#a{
+  color: #a68d5d;
+}
+#body{
+  background-color: #4f4d49;
+  color: #a68d5d;
+}
+#Header{
+  text-align: center;
+  margin-top: 10px;
+}
+#west{
+  width: 200px;
+  margin-top: 10px;
+}
+#Quote{
+  text-align: center;
+  margin-top: 10px;
+}
+#Footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+#wide{
+  height: 100%;
+  width: 100%;
+}
+#quote{
+  margin-top: 20px;
+}
+#drachenwide{
+  width: 100%;
+  height: 180%;
+}
+#bobbywide{
+  width: 100%;
+  height: 100%;
+}
