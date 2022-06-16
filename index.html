@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kanye West Quotes</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js"></script>
+    <title>Quotes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app3.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,42 +13,50 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body id="body">
+    <!-- navbar made by me -->
     <nav class="navbar navbar-expand-lg navbar-light text-center" id="b">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="quotes.html" id="a">Quotes</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html" id="a"><b>Kanye West</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="info.html" id="a">Drachenlord</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="bob.html" id="a">Bob Ross</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="a" aria-current="page"
+          ><b>Quotes</b></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="kanye.html" id="a">Kanye West</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="drachi.html" id="a">Drachenlord</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bob.html" id="a">Bob Ross</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="container" id="Header">
-      <h2>Kanye West Quotes</h2>
-      <img src="imgs/kanye.webp" alt="Kanye" id="west">
+      <h2>Info</h2>
     </div>
 
     <div class="container" id="Quote">
-      <a id="btn-random" class="btn btn-dark text-white">click me (:</a>
       <div class="card" id="c">
-        <p id="quote"></p>
+        <p id="quote">
+          Ich habe ein Website gemacht, die random Zitate von Kanye West, Bob
+          Ross und Drachenlord liefert.
+        </p>
       </div>
-    </div>
-
-    <div class="container-fluid" id="Footer">
-      <img src="imgs/west.jpg" alt="West" id="wide">
     </div>
   </body>
 </html>
